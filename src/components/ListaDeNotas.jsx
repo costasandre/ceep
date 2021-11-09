@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class ListaDeNotas extends Component{
+class ListaDeNotas extends Component{
     render() {
         return(
             <ul>
@@ -16,3 +16,5 @@ export class ListaDeNotas extends Component{
         );
     }
 }
+
+export default ListaDeNotas;
